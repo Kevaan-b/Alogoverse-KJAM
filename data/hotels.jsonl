@@ -1,0 +1,200 @@
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-09-28", "nights": 8, "price_per_night": 156}
+{"hotel": "HotelDemo", "city": "Berlin", "check_in": "2025-09-13", "nights": 5, "price_per_night": 109}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-09-29", "nights": 8, "price_per_night": 116}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-08-11", "nights": 2, "price_per_night": 413}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-08-02", "nights": 2, "price_per_night": 123}
+{"hotel": "StayTest", "city": "New York", "check_in": "2025-09-03", "nights": 8, "price_per_night": 193}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-09-21", "nights": 4, "price_per_night": 152}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-08-09", "nights": 7, "price_per_night": 132}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-08-18", "nights": 6, "price_per_night": 112}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-09-30", "nights": 3, "price_per_night": 313}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-09-16", "nights": 3, "price_per_night": 258}
+{"hotel": "InnMock", "city": "Paris", "check_in": "2025-08-13", "nights": 4, "price_per_night": 253}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-09-14", "nights": 5, "price_per_night": 277}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-08-08", "nights": 3, "price_per_night": 495}
+{"hotel": "InnMock", "city": "Paris", "check_in": "2025-09-09", "nights": 7, "price_per_night": 236}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-08-12", "nights": 3, "price_per_night": 516}
+{"hotel": "HotelDemo", "city": "Berlin", "check_in": "2025-08-08", "nights": 7, "price_per_night": 89}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-08-19", "nights": 5, "price_per_night": 198}
+{"hotel": "InnMock", "city": "Paris", "check_in": "2025-08-05", "nights": 6, "price_per_night": 232}
+{"hotel": "InnMock", "city": "Paris", "check_in": "2025-09-04", "nights": 5, "price_per_night": 181}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-08-19", "nights": 5, "price_per_night": 156}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-08-22", "nights": 4, "price_per_night": 371}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-08-26", "nights": 4, "price_per_night": 147}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-08-11", "nights": 4, "price_per_night": 267}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-10-02", "nights": 6, "price_per_night": 91}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-08-25", "nights": 6, "price_per_night": 293}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-09-16", "nights": 4, "price_per_night": 161}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-09-01", "nights": 7, "price_per_night": 178}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-08-26", "nights": 3, "price_per_night": 275}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-08-28", "nights": 2, "price_per_night": 172}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-08-25", "nights": 2, "price_per_night": 273}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-09-26", "nights": 5, "price_per_night": 179}
+{"hotel": "InnMock", "city": "Berlin", "check_in": "2025-08-16", "nights": 7, "price_per_night": 173}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-08-24", "nights": 9, "price_per_night": 274}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-08-26", "nights": 10, "price_per_night": 101}
+{"hotel": "HotelDemo", "city": "Berlin", "check_in": "2025-09-03", "nights": 3, "price_per_night": 329}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-09-08", "nights": 6, "price_per_night": 146}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-09-11", "nights": 3, "price_per_night": 335}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-09-07", "nights": 10, "price_per_night": 190}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-08-05", "nights": 4, "price_per_night": 258}
+{"hotel": "HotelDemo", "city": "Berlin", "check_in": "2025-09-22", "nights": 8, "price_per_night": 83}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-08-28", "nights": 1, "price_per_night": 266}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-09-01", "nights": 2, "price_per_night": 173}
+{"hotel": "InnMock", "city": "Tokyo", "check_in": "2025-09-19", "nights": 6, "price_per_night": 109}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-09-11", "nights": 3, "price_per_night": 154}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-08-19", "nights": 8, "price_per_night": 256}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-09-08", "nights": 3, "price_per_night": 55}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-08-31", "nights": 2, "price_per_night": 261}
+{"hotel": "InnMock", "city": "Berlin", "check_in": "2025-08-21", "nights": 5, "price_per_night": 308}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-09-08", "nights": 2, "price_per_night": 149}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-08-17", "nights": 4, "price_per_night": 183}
+{"hotel": "InnMock", "city": "Paris", "check_in": "2025-08-17", "nights": 6, "price_per_night": 228}
+{"hotel": "HotelDemo", "city": "Berlin", "check_in": "2025-08-14", "nights": 5, "price_per_night": 320}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-09-30", "nights": 8, "price_per_night": 70}
+{"hotel": "InnMock", "city": "Berlin", "check_in": "2025-09-02", "nights": 6, "price_per_night": 280}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-09-25", "nights": 2, "price_per_night": 230}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-09-05", "nights": 4, "price_per_night": 203}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-09-13", "nights": 5, "price_per_night": 68}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-08-30", "nights": 7, "price_per_night": 145}
+{"hotel": "InnMock", "city": "Tokyo", "check_in": "2025-08-04", "nights": 5, "price_per_night": 265}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-08-17", "nights": 4, "price_per_night": 122}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-09-13", "nights": 6, "price_per_night": 332}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-09-20", "nights": 5, "price_per_night": 305}
+{"hotel": "InnMock", "city": "Paris", "check_in": "2025-08-31", "nights": 3, "price_per_night": 183}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-09-15", "nights": 5, "price_per_night": 267}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-08-27", "nights": 10, "price_per_night": 515}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-10-02", "nights": 5, "price_per_night": 246}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-08-15", "nights": 4, "price_per_night": 93}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-09-16", "nights": 3, "price_per_night": 134}
+{"hotel": "HotelDemo", "city": "Berlin", "check_in": "2025-09-05", "nights": 10, "price_per_night": 76}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-08-21", "nights": 5, "price_per_night": 172}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-09-22", "nights": 5, "price_per_night": 291}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-09-04", "nights": 3, "price_per_night": 224}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-09-25", "nights": 3, "price_per_night": 248}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-09-15", "nights": 1, "price_per_night": 200}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-09-25", "nights": 3, "price_per_night": 215}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-08-24", "nights": 3, "price_per_night": 307}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-09-18", "nights": 1, "price_per_night": 160}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-09-08", "nights": 8, "price_per_night": 303}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-10-02", "nights": 5, "price_per_night": 209}
+{"hotel": "HotelDemo", "city": "Berlin", "check_in": "2025-09-16", "nights": 3, "price_per_night": 178}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-08-26", "nights": 4, "price_per_night": 91}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-09-05", "nights": 5, "price_per_night": 192}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-09-15", "nights": 3, "price_per_night": 279}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-09-06", "nights": 6, "price_per_night": 224}
+{"hotel": "StayTest", "city": "New York", "check_in": "2025-08-20", "nights": 7, "price_per_night": 156}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-09-13", "nights": 4, "price_per_night": 114}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-09-02", "nights": 9, "price_per_night": 352}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-08-18", "nights": 4, "price_per_night": 98}
+{"hotel": "HotelDemo", "city": "Berlin", "check_in": "2025-08-15", "nights": 6, "price_per_night": 101}
+{"hotel": "InnMock", "city": "Paris", "check_in": "2025-09-09", "nights": 5, "price_per_night": 337}
+{"hotel": "StayTest", "city": "New York", "check_in": "2025-08-22", "nights": 3, "price_per_night": 198}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-08-14", "nights": 9, "price_per_night": 125}
+{"hotel": "InnMock", "city": "Paris", "check_in": "2025-08-12", "nights": 6, "price_per_night": 91}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-09-02", "nights": 8, "price_per_night": 82}
+{"hotel": "StayTest", "city": "New York", "check_in": "2025-08-18", "nights": 2, "price_per_night": 237}
+{"hotel": "InnMock", "city": "Tokyo", "check_in": "2025-08-19", "nights": 4, "price_per_night": 254}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-08-27", "nights": 2, "price_per_night": 280}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-08-09", "nights": 3, "price_per_night": 182}
+{"hotel": "InnMock", "city": "Tokyo", "check_in": "2025-08-11", "nights": 1, "price_per_night": 79}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-08-24", "nights": 5, "price_per_night": 145}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-09-30", "nights": 6, "price_per_night": 111}
+{"hotel": "StayTest", "city": "New York", "check_in": "2025-10-01", "nights": 1, "price_per_night": 268}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-08-23", "nights": 6, "price_per_night": 229}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-09-19", "nights": 4, "price_per_night": 182}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-09-14", "nights": 3, "price_per_night": 154}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-09-12", "nights": 2, "price_per_night": 262}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-09-17", "nights": 7, "price_per_night": 143}
+{"hotel": "HotelDemo", "city": "Berlin", "check_in": "2025-09-24", "nights": 6, "price_per_night": 232}
+{"hotel": "InnMock", "city": "Berlin", "check_in": "2025-08-31", "nights": 6, "price_per_night": 216}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-08-18", "nights": 3, "price_per_night": 93}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-08-07", "nights": 1, "price_per_night": 299}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-09-23", "nights": 9, "price_per_night": 242}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-09-14", "nights": 8, "price_per_night": 99}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-09-12", "nights": 7, "price_per_night": 236}
+{"hotel": "InnMock", "city": "Berlin", "check_in": "2025-09-04", "nights": 6, "price_per_night": 292}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-08-31", "nights": 2, "price_per_night": 138}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-08-21", "nights": 2, "price_per_night": 163}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-10-01", "nights": 5, "price_per_night": 131}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-09-01", "nights": 7, "price_per_night": 262}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-09-13", "nights": 1, "price_per_night": 193}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-08-04", "nights": 5, "price_per_night": 159}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-09-14", "nights": 5, "price_per_night": 210}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-09-15", "nights": 4, "price_per_night": 312}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-08-10", "nights": 4, "price_per_night": 212}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-08-31", "nights": 6, "price_per_night": 145}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-09-14", "nights": 5, "price_per_night": 304}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-08-17", "nights": 6, "price_per_night": 290}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-09-01", "nights": 5, "price_per_night": 371}
+{"hotel": "StayTest", "city": "New York", "check_in": "2025-08-31", "nights": 9, "price_per_night": 393}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-08-24", "nights": 3, "price_per_night": 61}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-09-16", "nights": 3, "price_per_night": 401}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-09-22", "nights": 5, "price_per_night": 352}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-09-12", "nights": 3, "price_per_night": 76}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-08-28", "nights": 4, "price_per_night": 325}
+{"hotel": "InnMock", "city": "Paris", "check_in": "2025-08-25", "nights": 4, "price_per_night": 223}
+{"hotel": "HotelDemo", "city": "Berlin", "check_in": "2025-08-18", "nights": 2, "price_per_night": 47}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-08-26", "nights": 6, "price_per_night": 304}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-08-06", "nights": 3, "price_per_night": 191}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-09-05", "nights": 3, "price_per_night": 288}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-08-24", "nights": 4, "price_per_night": 469}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-09-26", "nights": 4, "price_per_night": 145}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-08-07", "nights": 3, "price_per_night": 220}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-08-14", "nights": 3, "price_per_night": 352}
+{"hotel": "InnMock", "city": "Berlin", "check_in": "2025-09-21", "nights": 7, "price_per_night": 165}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-08-24", "nights": 3, "price_per_night": 176}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-09-06", "nights": 3, "price_per_night": 171}
+{"hotel": "InnMock", "city": "Berlin", "check_in": "2025-08-16", "nights": 3, "price_per_night": 116}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-08-28", "nights": 10, "price_per_night": 202}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-08-31", "nights": 4, "price_per_night": 483}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-09-13", "nights": 2, "price_per_night": 137}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-08-28", "nights": 6, "price_per_night": 159}
+{"hotel": "StayTest", "city": "New York", "check_in": "2025-08-09", "nights": 1, "price_per_night": 65}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-09-05", "nights": 6, "price_per_night": 94}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-08-18", "nights": 1, "price_per_night": 104}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-09-06", "nights": 4, "price_per_night": 199}
+{"hotel": "HotelDemo", "city": "Paris", "check_in": "2025-10-15", "nights": 5, "price_per_night": 145}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-09-18", "nights": 7, "price_per_night": 181}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-08-16", "nights": 11, "price_per_night": 74}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-08-20", "nights": 7, "price_per_night": 141}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-08-16", "nights": 4, "price_per_night": 236}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-09-13", "nights": 5, "price_per_night": 164}
+{"hotel": "StayTest", "city": "New York", "check_in": "2025-09-10", "nights": 12, "price_per_night": 318}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-08-25", "nights": 7, "price_per_night": 154}
+{"hotel": "InnMock", "city": "Berlin", "check_in": "2025-08-16", "nights": 7, "price_per_night": 105}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-08-11", "nights": 5, "price_per_night": 336}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-09-13", "nights": 2, "price_per_night": 229}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-09-04", "nights": 1, "price_per_night": 251}
+{"hotel": "InnMock", "city": "Paris", "check_in": "2025-09-12", "nights": 6, "price_per_night": 209}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-10-12", "nights": 7, "price_per_night": 287}
+{"hotel": "HotelDemo", "city": "New York", "check_in": "2025-08-15", "nights": 4, "price_per_night": 66}
+{"hotel": "InnMock", "city": "Tokyo", "check_in": "2025-09-09", "nights": 5, "price_per_night": 262}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-08-27", "nights": 12, "price_per_night": 243}
+{"hotel": "StayTest", "city": "New York", "check_in": "2025-09-27", "nights": 4, "price_per_night": 280}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-09-27", "nights": 2, "price_per_night": 123}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-09-12", "nights": 3, "price_per_night": 112}
+{"hotel": "InnMock", "city": "Tokyo", "check_in": "2025-09-27", "nights": 5, "price_per_night": 109}
+{"hotel": "StayTest", "city": "New York", "check_in": "2025-09-06", "nights": 2, "price_per_night": 67}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-08-27", "nights": 6, "price_per_night": 241}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-09-20", "nights": 4, "price_per_night": 113}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-07-31", "nights": 5, "price_per_night": 234}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-09-01", "nights": 3, "price_per_night": 165}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-09-14", "nights": 6, "price_per_night": 107}
+{"hotel": "InnMock", "city": "Dubai", "check_in": "2025-09-06", "nights": 2, "price_per_night": 303}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-08-29", "nights": 3, "price_per_night": 213}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-08-01", "nights": 6, "price_per_night": 277}
+{"hotel": "StayTest", "city": "Tokyo", "check_in": "2025-09-19", "nights": 5, "price_per_night": 100}
+{"hotel": "InnMock", "city": "Berlin", "check_in": "2025-10-08", "nights": 5, "price_per_night": 301}
+{"hotel": "InnMock", "city": "New York", "check_in": "2025-08-17", "nights": 9, "price_per_night": 171}
+{"hotel": "InnMock", "city": "Paris", "check_in": "2025-08-25", "nights": 5, "price_per_night": 298}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-09-10", "nights": 7, "price_per_night": 231}
+{"hotel": "StayTest", "city": "Berlin", "check_in": "2025-08-12", "nights": 2, "price_per_night": 147}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-08-23", "nights": 4, "price_per_night": 200}
+{"hotel": "HotelDemo", "city": "Dubai", "check_in": "2025-09-03", "nights": 3, "price_per_night": 157}
+{"hotel": "HotelDemo", "city": "Tokyo", "check_in": "2025-09-10", "nights": 9, "price_per_night": 218}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-09-03", "nights": 6, "price_per_night": 59}
+{"hotel": "StayTest", "city": "Paris", "check_in": "2025-09-26", "nights": 4, "price_per_night": 102}
+{"hotel": "InnMock", "city": "Tokyo", "check_in": "2025-09-28", "nights": 4, "price_per_night": 121}
+{"hotel": "HotelDemo", "city": "Berlin", "check_in": "2025-08-30", "nights": 2, "price_per_night": 268}
+{"hotel": "StayTest", "city": "Dubai", "check_in": "2025-08-21", "nights": 6, "price_per_night": 246}
