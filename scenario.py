@@ -35,53 +35,88 @@ def sample_scenario():
 
 
 def build_orchestrator_prompt(scenario: dict) -> str:
-    trips = " → ".join(scenario["cities"])
+    cities       = scenario["cities"]
+    book_hotels  = scenario["book_hotels"]
+    plan_days    = scenario["plan_days"]
 
-    lines: list[str] = [
-        "You are the orchestrator LLM for TripBenchmark.",
-        f"Route: {trips}.",
+    # Build a leg table so the model has zero ambiguity
+    legs = []
+    for i in range(len(cities) - 1):
+        origin = cities[i]
+        dest   = cities[i + 1]
+        legs.append({
+            "leg": i + 1,
+            "origin": origin,
+            "dest": dest,
+            "book_hotel": bool(book_hotels[i + 1]),  # hotel/plan apply to the arrival city
+            "days_to_plan": int(plan_days[i + 1]),
+        })
+
+    route_str = " → ".join(cities)
+
+    lines = [
+        # === ROLE & GOAL ====================================================
+        "You are the Orchestrator LLM for TripBenchmark.",
+        f"ROUTE: {route_str}",
         "",
-        "Sub-agents:",
-        "• FlightAgent - pick a flight for each leg (origin → dest).",
-        "• HotelAgent - reserve accommodation when requested.",
-        "• PlannerAgent - craft daily activity plans.",
+        # === WHAT AGENTS EXIST ==============================================
+        "Available agents (use these role names exactly):",
+        "- FlightAgent  – choose a flight for an origin→dest leg.",
+        "- HotelAgent   – book accommodation at the arrival city.",
+        "- PlannerAgent – create day-by-day activities at the arrival city.",
         "",
-        "Rules:",
-        "1. Adjacent cities are always different (already enforced).",
-        "2. When revisiting a city, do **not** repeat activities from earlier visits.",
+        # === HARD RULES THE PARSER RELIES ON ================================
+        "OUTPUT FORMAT (strict):",
+        "• Emit ONLY lines in this exact form, one task per line:",
+        '[TASK] <AgentRole> | {"key":"value","key2":"value2"}',
+        "• No Markdown, no prose, no blank lines, no extra spaces around [TASK].",
+        "• JSON must be single-line, double-quoted keys/strings, no trailing commas.",
+        "• AgentRole ∈ {FlightAgent, HotelAgent, PlannerAgent}.",
         "",
-        "Tasks (one per leg):",
+        # === WHAT TO EMIT FOR EACH LEG ======================================
+        "For each consecutive pair of cities (i.e., each leg origin→dest):",
+        "1) Emit a FlightAgent task with payload:",
+        '   {"origin":"<origin>","dest":"<dest>"}',
+        "2) If book_hotel is true for the arrival city, emit a HotelAgent task:",
+        '   {"city":"<dest>","nights":<integer_nights>}',
+        "   - Set nights to the days_to_plan for that arrival city (minimum 1).",
+        "3) Always emit a PlannerAgent task for the arrival city:",
+        '   {"city":"<dest>","days":<days_to_plan>}',
+        "",
+        # === DON’TS =========================================================
+        "Do NOT invent cities or legs. Do NOT output keys other than shown.",
+        "Do NOT include dates here; sub-agents will handle specifics later.",
+        "",
+        # === LEG TABLE THE MODEL SHOULD FOLLOW ==============================
+        "LEG TABLE (follow exactly):"
     ]
 
-    for idx, city in enumerate(scenario["cities"]):
-        lines.append(f"- Leg {idx+1}: arrive in {city}")
-        if scenario["book_hotels"][idx]:
-            lines.append("  • Book an appropriate hotel")
-        lines.append(f"  • Plan {scenario['plan_days'][idx]} day(s) of activities")
+    for leg in legs:
+        lines.append(
+            f'- Leg {leg["leg"]}: {leg["origin"]} → {leg["dest"]} | '
+            f'book_hotel={str(leg["book_hotel"]).lower()} | days_to_plan={leg["days_to_plan"]}'
+        )
 
-    example = {
-        "flights": [
-            {"origin": "Dubai", "dest": "Tokyo", "airline": "AirDemo", "date": "2025-10-01"}
-        ],
-        "hotels": [
-            {"city": "Tokyo", "hotel": "HotelDemo", "check_in": "2025-10-01", "nights": 3}
-        ],
-        "day_plans": [
-            {"city": "Tokyo", "day": "2025-10-02", "morning": "Visit Senso‑ji", "afternoon": "Sushi class", "evening": "Skytree at sunset"}
-        ],
-    }
-
-    lines.extend([
+    # === MINI EXAMPLE (conforms to your regex) ==============================
+    lines += [
         "",
-        "Return **ONLY** a JSON object with keys *flights*, *hotels*, *day_plans*.",
-        json.dumps(example, indent=2),
-    ])
+        "Example (format only; values are illustrative):",
+        '[TASK] FlightAgent | {"origin":"Paris","dest":"Tokyo"}',
+        '[TASK] HotelAgent | {"city":"Tokyo","nights":2}',
+        '[TASK] PlannerAgent | {"city":"Tokyo","days":2}',
+        "",
+        # === FINAL INSTRUCTION ==============================================
+        "Now output the tasks for the LEG TABLE above, and nothing else."
+    ]
 
     return "\n".join(lines)
 
 
 if __name__ == "__main__":
+    import models.qwen
     scen = sample_scenario()
     print(json.dumps(scen, indent=2))
     print("\n" + "="*80 + "\n")
     print(build_orchestrator_prompt(scen))
+    model = models.qwen.QwenLocal()
+    print(model.generate(build_orchestrator_prompt(scen)))
